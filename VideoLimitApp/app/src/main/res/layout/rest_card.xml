@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="18dp"
+    android:paddingTop="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_elevated"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/rest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已连续刷 10 分钟"
+            android:textColor="@color/warn"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rest_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已自动退出，休息 2 分钟后可再打开"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/rest_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:layout_marginTop="3dp" />
+
+        <LinearLayout
+            android:id="@+id/rest_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_access"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="开启无障碍权限"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/primary" />
+
+            <Button
+                android:id="@+id/btn_dismiss"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="知道了"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary"
+                android:backgroundTint="@color/bg"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

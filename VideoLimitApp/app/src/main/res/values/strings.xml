@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">刷视频限时助手</string>
+    <string name="accessibility_label">刷视频限时助手-自动退出视频</string>
+    <string name="accessibility_desc">当刷视频时长到达设定值时，自动按返回键退出视频应用；若无法退出则回到桌面，帮助兑现休息承诺。本服务不读取屏幕内容。</string>
+</resources>

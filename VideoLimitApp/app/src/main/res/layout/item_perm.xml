@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/perm_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/perm_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="描述"
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/perm_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未开启"
+        android:textSize="12sp"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/perm_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="去设置"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/accent"
+        android:layout_marginStart="6dp" />
+</LinearLayout>

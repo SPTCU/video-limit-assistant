@@ -1,0 +1,26 @@
+# ---------- 本机环境：体积大、含本机路径，绝不入库 ----------
+android-sdk/
+tools_tmp/
+.workbuddy/
+
+# ---------- Node ----------
+node_modules/
+npm-debug.log*
+.npm/
+
+# ---------- 音视频产物：走 GitHub Releases，不进仓库 ----------
+PromoVideo/out/
+*.mp4
+*.wav
+
+# ---------- Android 构建 ----------
+VideoLimitApp/local.properties
+VideoLimitApp/build_out/
+build/
+*.class
+*.dex
+
+# ---------- 系统垃圾 ----------
+Thumbs.db
+.DS_Store
+desktop.ini
